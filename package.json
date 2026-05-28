@@ -4,6 +4,30 @@
   "scripts": {
     "dev": "vinxi dev",
     "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@convex-dev/react-query": "^0.1.0",
+    "@tanstack/react-query": "^5.62.7",
+    "@tanstack/react-router": "^1.92.1",
+    "@tanstack/react-start": "^1.92.5",
+    "@tanstack/start": "^1.92.5",
+    "convex": "^1.17.4",
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^5.4.15"
+  }
+}
+{
+  "name": "warmora",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
     "start": "node app.js"
   },
   "dependencies": {
