@@ -1,0 +1,33 @@
+vinxi v0.5.11
+vinxi no vinxi app config found
+vinxi found vite config in vite.config.ts
+
+
+⚙  Building your app...
+vinxi v0.5.11
+vinxi no vinxi app config found
+vinxi found vite config in vite.config.ts
+
+
+⚙ Building your router client...
+
+
+📦 Compiling client router...
+vinxi building router client in spa mode
+vite v6.4.2 building for production...
+✓ 0 modules transformed.
+✗ Build failed in 10ms
+Error building router client: path.replace is not a function
+    at normalize (file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/rollup/dist/es/shared/parseAst.js:277:17)
+    at file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/rollup/dist/es/shared/node-entry.js:22711:34
+    at file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/rollup/dist/es/shared/node-entry.js:22743:37
+    at Array.some (<anonymous>)
+    at file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/rollup/dist/es/shared/node-entry.js:22743:22
+    at file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/rollup/dist/es/shared/node-entry.js:22783:37
+    at PluginDriver.runHook (file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/rollup/dist/es/shared/node-entry.js:22972:40)
+    at PluginDriver.hookFirstAndGetPlugin (file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/rollup/dist/es/shared/node-entry.js:22870:39)
+    at async resolveId (file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/rollup/dist/es/shared/node-entry.js:21321:26)
+    at async ModuleLoader.loadEntryModule (file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/rollup/dist/es/shared/node-entry.js:22146:33)
+Error building router client: Error: Exited with code: 1
+    at CommandChild.pipedStdoutBuffer (file:///home/engine/.npm/_npx/1e68cb0a1b7c6284/node_modules/dax-sh/esm/mod.js:8476:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
