@@ -3,7 +3,7 @@ import tsConfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
   server: {
-    preset: 'static'
+    preset: 'vercel-serverless'
   },
   vite: {
     plugins: [
